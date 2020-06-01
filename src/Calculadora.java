@@ -29,4 +29,8 @@ public class Calculadora {
         return num1/num2;
     }
     
+    public int potencia(int base,int exponente){
+        return (int) Math.pow(base,exponente);
+    }
+    
 }
